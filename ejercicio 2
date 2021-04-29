@@ -1,0 +1,16 @@
+Algoritmo ejercicio2
+	//Generar hasta el n-simo termino
+	//1,4,9,16,25,36,49,64
+	Escribir "ingrese el nisimo termino de la serie"
+	leer n
+	aux <- n
+	t <- 1
+	r <- 1
+	g<-0
+	Mientras g<=n Hacer
+		escribir r
+		r<-(t*1)+2
+		t<-t+1
+		g<-g+1
+	Fin Mientras
+FinAlgoritmo
